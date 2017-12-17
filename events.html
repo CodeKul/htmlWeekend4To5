@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+   <div id="MyDiv">
+       Some text is here;
+   </div>
+    <button type="button" id="MyId">Click Me</button>
+</body>
+</html>
+<script>
+var myID = document.getElementById("MyId");
+var MyDiv = document.getElementById("MyDiv");
+    /*console.log(MyDiv.innerHTML);
+    console.log(document.URL);
+    console.log(document.body);
+myID.onclick = function(){
+    alert("Welcome");
+}
+
+myID.onclick = display;
+function display(){
+    MyDiv.innerHTML = "Welcome to javascript events";
+}*/
+myID.addEventListener("click",function(eve){
+    console.log(eve);
+    MyDiv.innerHTML = "X Co-ordinate : "+  eve.clientX + " Y co-ordinate : "+ eve.clientY;
+    MyDiv.style.background = "aqua";
+    MyDiv.style.padding = "15px";  
+})
+
+//console.log(MyDiv);
+</script>

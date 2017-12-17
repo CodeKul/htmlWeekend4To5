@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Borders</title>
+        <style>
+            div{
+                margin: 25px;
+            }
+            .normal{
+                border-style: double;
+                border-width: 10px;
+                border-color: rgb(242, 38, 19);
+            }
+            .dotted{
+                border:5px dotted #00e640;
+            }
+            .dashed {
+	             border-left-width: 10px;
+                border-right-width: medium;
+                border-top-width: thick;
+                border-bottom-width: thin;
+                border-style: dashed;
+          }
+            .groove {
+	border-style: groove;
+                border-width: 8px;
+                border-color: #F89406;
+}
+            .inset {
+	border-style: inset;
+                border-width: 8px;
+                border-color: #F89406;
+                border-left-color:rgb(1,50,67) ;
+                border-right-color: #22A7F0;
+                border-top-color: rgb(31, 58, 147);
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+                border-top-right-radius: 25px;
+                border-bottom-color: #22A7F0;
+}
+        .outset {
+
+	border-style: outset;
+                border-width: 8px;
+                border-color: #F89406;
+              border-radius: 25px;
+}
+        </style>
+    </head>
+    <body>
+        <div class="normal">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+        </div>
+        <div class="dotted">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+        </div>
+        <div class="dashed">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+        </div>
+        <div class="groove">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+        </div>
+        <div class="inset">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+        </div>
+        <div class="outset">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+        </div>
+    </body>
+</html>

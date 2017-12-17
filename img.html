@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Img</title>
+        <style>
+            div{
+                background: url('../Bootstrap_Template/images/s2.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                height: 600px;
+                background-color: rgba(255,55,155,0.1);
+                background-blend-mode: overlay;
+            }
+            .MyId img{
+                height: 250px;
+                width: 250px;
+                border-radius: 12px;
+                border: 2px solid rgb(248,178,48);
+            }
+            .MyId img:hover{
+                opacity: 1;
+                border-radius: 50%;
+                border: 2px solid rgb(248,78,8);
+            }
+            figure{
+                height: 250px;
+                width: 250px;
+            }
+            figure img {
+                height: 250px;
+                width: 250px;
+            }
+            figcaption{
+                color: darkblue;
+                background-color: lightgray;
+                padding: 10px 0px;
+                text-align: center;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="MyId">
+            <img src="../Bootstrap_Template/images/s1.jpeg" height="250" width="250">
+        <img src="../Bootstrap_Template/images/s2.png">
+       </div>
+       <figure id="figId">
+           <img src="../Bootstrap_Template/images/s1.jpeg">
+           <figcaption>This is my Image</figcaption>
+       </figure>
+    </body>
+</html>
