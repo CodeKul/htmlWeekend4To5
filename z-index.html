@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Z-index</title>
+    <style>
+        div {
+            position: fixed;
+            height: 250px;
+            width: 250px;
+            display: inline-block;
+            padding: 15px;
+        }
+
+        .first {
+            z-index: 10;
+            background-color: darkgoldenrod;
+        }
+
+        .second {
+            top: 30px;
+            left: 30px;
+            z-index: 11;
+            background-color: blue;
+
+        }
+
+        .third {
+            top: 60px;
+            left: 60px;
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="first">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempora officia laudantium, laborum aut eius. Quos aliquid veniam praesentium dolorem, ratione ullam nobis. Iure animi numquam sequi tempora itaque, autem culpa, doloremque omnis vel, consequuntur, accusamus quibusdam ex similique inventore quis ab nobis voluptas provident. Accusamus ducimus, at fugiat ipsum!
+    </div>
+    <div class="second">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempora officia laudantium, laborum aut eius. Quos aliquid veniam praesentium dolorem, ratione ullam nobis. Iure animi numquam sequi tempora itaque, autem culpa, doloremque omnis vel, consequuntur, accusamus quibusdam ex similique inventore quis ab nobis voluptas provident. Accusamus ducimus, at fugiat ipsum!
+    </div>
+    <div class="third">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempora officia laudantium, laborum aut eius. Quos aliquid veniam praesentium dolorem, ratione ullam nobis. Iure animi numquam sequi tempora itaque, autem culpa, doloremque omnis vel, consequuntur, accusamus quibusdam ex similique inventore quis ab nobis voluptas provident. Accusamus ducimus, at fugiat ipsum!
+    </div>
+</body>
+
+</html>
