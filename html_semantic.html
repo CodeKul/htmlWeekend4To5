@@ -5,33 +5,38 @@
     <meta charset="UTF-8">
     <title>Html Sementics</title>
     <style>
-        .container{
+        .container {
             margin-left: 30px;
             margin-right: 30px;
         }
 
-        .header {
+        header {
             background: url('../Bootstrap_Template/images/slider1.jpeg')no-repeat center center fixed;
             background-size: cover;
         }
-        .nav{
+
+        nav {
             background-color: black;
         }
-        .nav ul{
+
+        nav ul {
             margin: -25px;
         }
-        .nav li{
+
+        nav li {
             font-size: 20px;
             padding: 15px;
             margin: 15px;
             text-decoration: none;
             display: inline-block;
         }
-        .nav li a{
+
+        nav li a {
             color: white;
             text-decoration: none;
         }
-        .footer{
+
+        footer {
             background-color: black;
             height: 30px;
             padding: 10px;
@@ -40,7 +45,8 @@
             color: wheat;
             clear: both;
         }
-        .artical{
+
+        article {
             margin-top: 20px;
             background-color: aqua;
             color: darkblue;
@@ -48,55 +54,61 @@
             height: 350px;
             float: left;
         }
-        .artical ul{
+
+        article ul {
             margin: -25px;
             list-style-type: none;
         }
-        .artical li{
+
+        article li {
             font-size: 20px;
             padding: 15px;
             margin: 15px;
             text-decoration: none;
         }
-        .artical li a{
+
+        article li a {
             color: black;
             text-decoration: none;
             border-bottom: 2px dotted blue;
         }
-        .main{
+
+        main {
             margin-top: 20px;
             height: 350px;
             width: 50%;
             float: left;
             background-color: lightpink;
         }
-        .main p{
+
+        main p {
             padding: 15px;
-            float: left;
+            /*            float: left;*/
             text-align: left;
         }
-        .main img{
-            float: right;  
+
+        main img {
+            float: right;
         }
-        .aside{
-           margin-top: 20px;
+
+        aside {
+            margin-top: 20px;
             background-color: aqua;
             color: darkblue;
             width: 25%;
             height: 350px;
-            float: left; 
+            float: left;
         }
-        
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="header">
+        <header>
             <img src="../Bootstrap_Template/images/logo2.jpeg">
             <h1>Introduction</h1>
-        </div>
-        <div class="nav">
+        </header>
+        <nav>
             <ul>
                 <li><a href="#">Html</a></li>
                 <li><a href="#">Css</a></li>
@@ -104,8 +116,8 @@
                 <li><a href="#">Javascript</a></li>
                 <li><a href="#">Jquery</a></li>
             </ul>
-        </div>
-        <div class="artical">
+        </nav>
+        <article>
             <ul>
                 <li><a href="#">Html</a></li>
                 <li><a href="#">Css</a></li>
@@ -113,21 +125,21 @@
                 <li><a href="#">Javascript</a></li>
                 <li><a href="#">Jquery</a></li>
             </ul>
-        </div>
-        <div class="main">
+        </article>
+        <main>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, repudiandae, vitae. Natus rem, harum sit assumenda ea corporis perferendis exercitationem, consequatur, repellendus voluptatibus molestias iusto maxime quasi earum facere optio ducimus sequi
+                <img src="../Bootstrap_Template/images/s1.jpeg" height="150" width="150"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, repudiandae, vitae. Natus rem, harum sit assumenda ea corporis perferendis exercitationem, consequatur, repellendus voluptatibus molestias iusto maxime quasi earum facere optio ducimus sequi
+
             </p>
-            <img src="../Bootstrap_Template/images/s1.jpeg" height="150" width="150">
-        </div>
-        <div class="aside">
+        </main>
+        <aside>
             <marquee direction="up">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, non, harum. Temporibus et laborum, atque delectus ratione eos quisquam quam molestias voluptates officia fugit odio?
             </marquee>
-        </div>
-        <div class="footer">
+        </aside>
+        <footer>
             &copy;Codekul.com
-        </div>
+        </footer>
     </div>
 </body>
 
