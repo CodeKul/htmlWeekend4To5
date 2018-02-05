@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation Timimg function</title>
+    <style>
+        div{
+            height: 100px;
+            width:200px;
+            background-color: aqua;
+            position: relative;
+            border:2px solid black;
+            margin: 5px;
+        }
+        .first{
+            animation-name: myAni;
+            animation-duration: 5s;
+            animation-timing-function: ease;
+        }
+        .second{
+            animation-name: myAni;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+        }
+        .third{
+            animation-name: myAni;
+            animation-duration: 5s;
+            animation-timing-function:ease-in-out;
+        }
+        .fourth{
+           animation-name: myAni;
+            animation-duration: 5s;
+            animation-timing-function: ease-out; 
+        }
+        .fifth{
+           animation-name: myAni;
+            animation-duration: 5s;
+            animation-timing-function:linear; 
+        }
+        @keyframes myAni{
+            from{top:0px;}
+            to{left:300px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="first">this is animation</div>
+    <div class="second">this is animation</div>
+    <div class="third">this is animation</div>
+    <div class="fourth">this is animation</div>
+    <div class="fifth">this is animation</div>
+</body>
+</html>

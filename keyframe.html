@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>keyframe</title>
+    <style>
+        div{
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            border:2px solid black;
+            animation-name: myAnim;
+            animation-duration: 5s;
+            animation-delay: 5s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes myAnim{
+/*            to{background-color: red;}*/
+/*            from{background-color: blue;}*/
+            0%{background-color: red;color: white;font-size:18px}
+            25%{background-color: yellow;color: blue;font-size:20px}
+            50%{background-color: blue;color: white;font-size:22px}
+            75%{background-color: deeppink;color: white;font-size:24px}
+            100%{background-color: green;color: white;font-size:26px}
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <div>
+        this is animation demo
+    </div>
+</body>
+</html>

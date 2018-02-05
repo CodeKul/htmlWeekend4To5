@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation</title>
+    <style>
+        .animation{
+            background-color: aqua;
+            height: 200px;
+            width:200px;
+            border:2px solid black;
+            position: relative;
+            /*animation-name: myAni;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-delay: 3s;
+            animation-direction:reverse;*/
+            animation: myAni 5s infinite 3s reverse;
+            
+        }
+        @keyframes myAni{
+            0%{top:0px;left:0px;color: white;background-color: blue;font-size: 24px;}
+            25%{top:0px;left:200px;color: black;background-color: pink;font-size: 26px;}
+            50%{top:200px;left:200px;color: wheat;background-color: red;font-size: 28px;}
+            75%{top:200px;left:0px;color: blue;background-color: yellow;font-size: 30px;}
+            100%{top:0px;left:0px;color: wheat;background-color: green;font-size: 32px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="animation">
+        This is my an animation
+    </div>
+</body>
+</html>

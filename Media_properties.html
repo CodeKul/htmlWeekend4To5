@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Media property</title>
+    <style>
+        .back {
+            background-color: lightpink;
+            font-size: 42px;
+            color: darkblue;
+            padding: 50px;
+            text-align: center;
+        }
+
+
+        @media (max-width:575px) {
+            .back {
+                background-color: lightblue;
+                font-size: 18px;
+                color: deeppink;
+                padding: 5px;
+                text-align: center;
+            }
+        }
+        /*        extra small xs */
+        @media (min-width:576px) and (max-width:760px) {
+            .back {
+                background-color: lightgreen;
+                font-size: 24px;
+                color: darkgreen;
+                padding: 15px;
+                text-align: center;
+            }
+        }
+        /*         small sm */
+        @media (min-width:761px) and (max-width:990px) {
+            .back {
+                background-color: lightgray;
+                font-size: 30px;
+                color: darkmagenta;
+                padding: 25px;
+                text-align: center;
+            }
+        }
+       /*         medium md */
+        @media (min-width:991px) and (max-width:1200px) {
+            .back {
+                background-color: lightsalmon;
+                font-size: 35px;
+                color: white;
+                padding: 35px;
+                text-align: center;
+            }
+        }
+         /*         large lg */
+        @media (min-width:991px) and (max-width:1200px) {
+            .back {
+                background-color: lightsalmon;
+                font-size: 35px;
+                color: white;
+                padding: 35px;
+                text-align: center;
+            }
+        }
+        /*        xetra large xl */
+        @media (min-width:1201px) {
+            .back {
+                background-color: rebeccapurple;
+                font-size: 40px;
+                color: white;
+                padding: 45px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="back">
+    This is the demo of media queries
+</body>
+
+</html>
